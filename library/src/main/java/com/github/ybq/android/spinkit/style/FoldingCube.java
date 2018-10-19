@@ -17,7 +17,7 @@ import com.github.ybq.android.spinkit.sprite.SpriteContainer;
 public class FoldingCube extends SpriteContainer {
 
     @SuppressWarnings("FieldCanBeLocal")
-    private boolean wrapContent = false;
+    private boolean wrapContent = true;
 
     @Override
     public Sprite[] onCreateChild() {
